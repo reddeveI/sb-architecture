@@ -24,7 +24,7 @@
     }
   ],
   "paths": {
-    "/user": {
+    "/users": {
       "post": {
         "tags": [
           "users"
@@ -70,7 +70,7 @@
         }
       }
     },
-    "/user/login": {
+    "/users/login": {
       "get": {
         "tags": [
           "users"
@@ -136,7 +136,7 @@
         }
       }
     },
-    "/user/logout": {
+    "/users/logout": {
       "get": {
         "tags": [
           "users"
@@ -152,7 +152,7 @@
         }
       }
     },
-    "/user/{username}": {
+    "/users/{username}": {
       "get": {
         "tags": [
           "users"
