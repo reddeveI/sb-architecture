@@ -309,6 +309,9 @@
           },
           "404": {
             "description": "product not found"
+          },
+          "422": {
+            "description": "not sufficient amount, try another payment method"
           }
         }
       }
